@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navbar</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: teal;
+        }
+        .logo{
+            color: #fff;
+            font-size: 30px;
+        }
+        ul{
+            margin-left: 500px;
+            list-style-type: none;
+            display: flex;
+        }
+        li{
+            margin-left: 60px;
+            color: #fff;
+            cursor: pointer;
+            font-size: 20px;
+        }
+
+        li:hover{
+            color: black;
+        }
+        .button{
+            padding: 10px 20px;
+            background-color: black;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .button:hover{
+            background-color: #373737;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="logo">navbar</h1>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact</li>
+        </ul> 
+        <div>
+            <button class="button">sign in</button>
+            <button class="button">sign up</button>
+        </div>   
+            
+        
+    </header>
+</body>
+</html>
