@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: arial;
+        }
+
+        body{
+            background-color: black;
+            color: white;
+        }
+
+        /* Navbar */
+        header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 25px 80px;
+        }
+
+        nav a{
+            color: white;
+            text-decoration: none;
+            margin-left: 30px;
+            font-size: 18px;
+        }
+
+        /* Hero Section */
+        .hero{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 80px;
+        }
+
+        .hero-text{
+            width: 50%;
+        }
+
+        .hero-text h4{
+            color: gray;
+            margin-bottom: 20px;
+        }
+
+        .hero-text h1{
+            font-size: 60px;
+            margin-bottom: 20px;
+        }
+
+        .hero-text p{
+            font-size: 20px;
+            line-height: 35px;
+            margin-bottom: 30px;
+        }
+
+        .hero-text button{
+            padding: 15px 35px;
+            border: none;
+            background: white;
+            color: black;
+            font-size: 18px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        .hero-image img{
+            width: 400px;
+            border-radius: 30px;
+            
+        }
+
+        /* Work Section */
+        .work{
+            padding: 80px;
+        }
+
+        .work h2{
+            margin-bottom: 20px;
+            font-size: 35px;
+        }
+
+        .cards{
+            display: flex;
+            gap: 20px;
+        }
+
+        .card{
+            width: 300px;
+        }
+
+        .card img{
+            width: 100%;
+            border-radius: 15px;
+        }
+
+        .card h3{
+            margin-top: 15px;
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <!--Navbar-->
+
+    <header>
+        <h2 class="logo">GHASSAN</h2>
+
+        <nav>
+            <a href="#">Work</a>
+            <a href="#">About</a>
+            <a href="#">Content</a>
+        </nav>   
+    </header>
+
+    <!--Hero Section-->
+
+    <section class="hero">
+        <div class="hero-text">
+            <h4>VIDEO EDITOR & FLIMMAKER</h4>
+            <h1>Ghassan Chalhao</h1>
+            <p>
+                I creat cinmetic edits 
+                and stories that connect 
+                with people.
+            </p>
+
+            <button>View Work</button>
+        </div>
+
+        <div class="hero-section">
+            <img src="man logo.avif" alt="">
+        </div>
+
+    </section>
+
+    <!--Work Section-->
+
+    <section class="work">
+        <h2>Selected Work</h2>
+
+        <div class="cards">
+            <div class="card">
+                <img src="image work1.jpg" alt="">
+                <h3>Beyond</h3>
+            </div>
+
+            <div class="card">
+                <img src="image work2.jpg" alt="">
+                <h3>Drive</h3>
+            </div>
+
+            <div class="card">
+                <img src="image.jpg" alt="">
+                <h3>Moments</h3>
+            </div>
+
+        </div>
+    </section>
+    
+</body>
+</html>
